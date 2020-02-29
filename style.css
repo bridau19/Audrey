@@ -1,0 +1,114 @@
+/* General Styling of Site Bosy */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: 'Playfair Display';
+  color: black;
+  font-size: 10pt;
+  margin-bottom: 0.1em;
+}
+
+.outerContainer {
+  display: flex;
+}
+.sideImage p {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 80px;
+}
+.mainSite {
+  width: 100%;
+}
+.sideImage {
+  width: 100%;
+}
+.sideImage img{
+  width: 100vw;
+  object-fit: fill;
+}
+
+.sectionContainer {
+  margin: 60px;
+}
+
+/* Styling for "Audrey" Title */
+.sectionContainer > p {
+  display: flex;
+  margin: -235px 95px -20px 0;
+  justify-content: center;
+  font-family: 'Oswald';
+  font-size: 265pt;
+  font-weight: bolder;
+  transform: scaleY(1.2);
+  transform-origin: 0 0;
+  letter-spacing: -15px;
+}
+
+
+/* container for image and text at top*/
+.twoColumnContainer {
+  display: flex;
+}
+
+/* styling for top red quote */
+.twoColumnContainer div p {
+  width: 100%;
+  font-family: 'Playfair Display';
+  color: #BF4E58;
+  font-size: 38pt;
+  line-height: 15px;
+}
+
+.twoColumnContainer img {
+  display: flex;
+  width: 40%;
+  height: 40vh;
+  object-fit: fill;
+  padding: 20px;
+  margin-top: 70px;
+}
+
+/* Article Content*/
+.contentContainer {
+  display: flex;
+}
+
+/* Styling for Article Text */
+.contentContainer > div p {
+  text-indent: 35px;
+  margin: 0;
+  text-align: justify;
+}
+
+.columnA {
+  margin-left: 10vw;
+  padding: 20px 0 20px 40px;
+  width: 100%;
+}
+.columnB {
+  margin-right: 20vw;
+  padding: 20px 0 20px 20px;
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.columnB div {
+  margin-bottom: 205px;
+}
+
+/* Second Red Quote */
+#redText {
+  position: absolute;
+  top: 845px;
+  right: 0;
+  margin-right: 20px;
+  text-align: center;
+  font-family: 'Playfair Display';
+  color: #BF4E58;
+  font-size: 36pt;
+}
