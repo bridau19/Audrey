@@ -1,9 +1,10 @@
-/* General Styling of Site Bosy */
+/* General Styling of Site Body */
 body, html {
   margin: 0;
   padding: 0;
 }
 
+/* paragraph text styling */
 p {
   font-family: 'Playfair Display';
   color: black;
@@ -11,28 +12,24 @@ p {
   margin-bottom: 0.1em;
 }
 
+/* entire site container set to flex box */
 .outerContainer {
   display: flex;
 }
-.sideImage p {
-  position: absolute;
-  right: 0;
-  top: 30px;
-  width: 80px;
-}
+
+/* main site contains article text  */
 .mainSite {
   width: 100%;
+  margin: 60px;
 }
+
+/* image on side of audrey sitting */
 .sideImage {
   width: 100%;
 }
 .sideImage img{
   width: 100vw;
   object-fit: fill;
-}
-
-.sectionContainer {
-  margin: 60px;
 }
 
 /* Styling for "Audrey" Title */
@@ -43,8 +40,10 @@ p {
   font-family: 'Oswald';
   font-size: 265pt;
   font-weight: bolder;
+  /* transformt to stretch text in vertical direction */
   transform: scaleY(1.2);
   transform-origin: 0 0;
+  /* letters pushed closer together with negative pixel value */
   letter-spacing: -15px;
 }
 
@@ -63,6 +62,7 @@ p {
   line-height: 15px;
 }
 
+/* style for image in contianer (small image in top right corner) */
 .twoColumnContainer img {
   display: flex;
   width: 40%;
@@ -84,6 +84,7 @@ p {
   text-align: justify;
 }
 
+/* column A and B contain columns of text */
 .columnA {
   margin-left: 10vw;
   padding: 20px 0 20px 40px;
@@ -97,6 +98,7 @@ p {
   width: 100%;
 }
 
+/* margin to create white space for red text */
 .columnB div {
   margin-bottom: 205px;
 }
@@ -105,7 +107,7 @@ p {
 #redText {
   position: absolute;
   top: 845px;
-  right: 0;
+  right: 18px;
   margin-right: 20px;
   text-align: center;
   font-family: 'Playfair Display';
